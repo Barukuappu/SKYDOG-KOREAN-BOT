@@ -5,9 +5,11 @@ from to import Token
 
 client = commands.Bot(command_prefix='!')
 
+
 @client.event
 async def on_ready():
     print(f'복권 부팅 성공!')
+
 
 @client.event
 async def on_message(message):
